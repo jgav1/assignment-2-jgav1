@@ -3,6 +3,7 @@
 */
 
 #include "autotest-validate.h"
+#include "../assignment-autotest/test/assignment1/username-from-conf-file.h"
 #include <stdbool.h>
 
 /**
@@ -27,5 +28,5 @@ bool this_function_returns_false()
  */
 const char *my_username()
 {
-    return "jgav";
+    return malloc_username_from_conf_file();
 }
